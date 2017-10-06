@@ -2124,7 +2124,7 @@ html[dir="rtl"] .select2-dropdown-open .select2-choice .select2-arrow b {
   position: relative;
   overflow-x: hidden;
   overflow-y: auto;
-  -webkit-tap-highlight-color: transparent; }
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
 
 html[dir="rtl"] .select2-results {
   padding: 0 4px 0 0;
@@ -4897,7 +4897,7 @@ body {
   color: #333333;
   font-size: 14px;
   line-height: 1.4;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Meiryo, "Hiragino Kaku Gothic Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-rendering: optimizeLegibility;
   margin: 0;
   padding: 0;
@@ -4986,7 +4986,7 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
   #wrapper::after {
     clear: both;
     content: "";
-    display: table; }
+    display: block; }
 
 #top-menu {
   display: block;
@@ -5000,7 +5000,7 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
   #top-menu::after {
     clear: both;
     content: "";
-    display: table; }
+    display: block; }
   #top-menu ul.menu-children {
     width: 26em;
     top: 99%;
@@ -5011,8 +5011,8 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
     #top-menu ul.menu-children > li {
       float: left;
       display: block;
-      margin-right: 2.35765%;
-      width: 48.82117%;
+      margin-right: 2.3576520234%;
+      width: 48.8211739883%;
       padding: 0; }
       #top-menu ul.menu-children > li:last-child {
         margin-right: 0; }
@@ -5089,7 +5089,7 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
   #header::after {
     clear: both;
     content: "";
-    display: table; }
+    display: block; }
   #header h1 {
     margin: 0;
     font-size: 1.5em;
@@ -5167,7 +5167,7 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
   #main-menu::after {
     clear: both;
     content: "";
-    display: table; }
+    display: block; }
   #main-menu.tabs {
     position: relative; }
     #main-menu.tabs > ul {
@@ -5253,11 +5253,11 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
   #main::after {
     clear: both;
     content: "";
-    display: table; }
+    display: block; }
   #main.nosidebar #content {
     float: left;
     display: block;
-    margin-right: 2.35765%;
+    margin-right: 2.3576520234%;
     width: 100%; }
     #main.nosidebar #content:last-child {
       margin-right: 0; }
@@ -5275,8 +5275,8 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
   #main #sidebar {
     float: left;
     display: block;
-    margin-right: 2.35765%;
-    width: 23.23176%;
+    margin-right: 2.3576520234%;
+    width: 23.2317609825%;
     padding-top: 1em; }
     #main #sidebar:last-child {
       margin-right: 0; }
@@ -5327,8 +5327,8 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
   #main #content {
     float: left;
     display: block;
-    margin-right: 2.35765%;
-    width: 74.41059%;
+    margin-right: 2.3576520234%;
+    width: 74.4105869942%;
     margin-right: 0;
     z-index: 10;
     position: relative; }
@@ -5374,14 +5374,14 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
   #footer::after {
     clear: both;
     content: "";
-    display: table; }
+    display: block; }
 
 /* Admin index */
 #admin-index #admin-menu li {
   float: left;
   display: block;
-  margin-right: 2.35765%;
-  width: 23.23176%;
+  margin-right: 2.3576520234%;
+  width: 23.2317609825%;
   margin-bottom: 0.5em;
   padding: 0; }
   #admin-index #admin-menu li:last-child {
@@ -5767,16 +5767,16 @@ div.square {
 .splitcontentleft {
   float: left;
   display: block;
-  margin-right: 2.35765%;
-  width: 48.82117%; }
+  margin-right: 2.3576520234%;
+  width: 48.8211739883%; }
   .splitcontentleft:last-child {
     margin-right: 0; }
 
 .splitcontentright {
   float: left;
   display: block;
-  margin-right: 2.35765%;
-  width: 48.82117%;
+  margin-right: 2.3576520234%;
+  width: 48.8211739883%;
   margin-right: 0 !important; }
   .splitcontentright:last-child {
     margin-right: 0; }
@@ -5817,7 +5817,7 @@ abbr {
   cursor: help; }
 
 textarea.wiki-edit {
-  font: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: Meiryo, "Hiragino Kaku Gothic Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
   width: 99% !important;
   resize: vertical;
   margin-bottom: 1em; }
@@ -6304,7 +6304,7 @@ p.other-formats {
   p.other-formats::after {
     clear: both;
     content: "";
-    display: table; }
+    display: block; }
 
 .other-formats span + span:before {
   content: "| "; }
@@ -6335,16 +6335,16 @@ select.bool_cf {
 #tab-content-members .splitcontentleft, #tab-content-memberships .splitcontentleft, #tab-content-users .splitcontentleft {
   float: left;
   display: block;
-  margin-right: 2.35765%;
-  width: 74.41059%; }
+  margin-right: 2.3576520234%;
+  width: 74.4105869942%; }
   #tab-content-members .splitcontentleft:last-child, #tab-content-memberships .splitcontentleft:last-child, #tab-content-users .splitcontentleft:last-child {
     margin-right: 0; }
 
 #tab-content-members .splitcontentright, #tab-content-memberships .splitcontentright, #tab-content-users .splitcontentright {
   float: left;
   display: block;
-  margin-right: 2.35765%;
-  width: 23.23176%; }
+  margin-right: 2.3576520234%;
+  width: 23.2317609825%; }
   #tab-content-members .splitcontentright:last-child, #tab-content-memberships .splitcontentright:last-child, #tab-content-users .splitcontentright:last-child {
     margin-right: 0; }
 
@@ -7375,15 +7375,15 @@ textarea#custom_field_possible_values, textarea#custom_field_default_value, .tab
 .controller-people.action-show #main #sidebar, .controller-contacts.action-show #main #sidebar {
   float: left;
   display: block;
-  margin-right: 2.35765%;
-  width: 31.76157%; }
+  margin-right: 2.3576520234%;
+  width: 31.7615653177%; }
   .controller-people.action-show #main #sidebar:last-child, .controller-contacts.action-show #main #sidebar:last-child {
     margin-right: 0; }
 .controller-people.action-show #main #content, .controller-contacts.action-show #main #content {
   float: left;
   display: block;
-  margin-right: 2.35765%;
-  width: 65.88078%;
+  margin-right: 2.3576520234%;
+  width: 65.8807826589%;
   margin-right: 0 !important; }
   .controller-people.action-show #main #content:last-child, .controller-contacts.action-show #main #content:last-child {
     margin-right: 0; }
