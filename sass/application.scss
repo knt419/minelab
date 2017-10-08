@@ -1,3 +1,4 @@
+@charset "UTF-8";
 // Frameworks
 @import "../bourbon/bourbon";
 @import "../neat/neat";
@@ -3916,7 +3917,7 @@ div.contact.details table.subject_header h1 {
   }
 
   .icon-clock:before {
-    content: "";
+    content: "\f017";
     display: inline-block;
     font: normal normal normal 14px/1 FontAwesome;
     font-size: 1.2em;
@@ -3932,19 +3933,19 @@ div.contact.details table.subject_header h1 {
   }
 
   .icon-start-action:before {
-    content: "";
+    content: "\f04b";
   }
 
   .icon-pause-action:before {
-    content: "";
+    content: "\f04c";
   }
 
   .icon-stop-action:before {
-    content: "";
+    content: "\f04d";
   }
 
   .icon-list-action:before {
-    content: "";
+    content: "\f03a";
   }
 }
 

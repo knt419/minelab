@@ -1,4 +1,3 @@
-@charset "UTF-8";
 html {
   box-sizing: border-box; }
 
@@ -5817,7 +5816,7 @@ abbr {
   cursor: help; }
 
 textarea.wiki-edit {
-  font: Meiryo, "Hiragino Kaku Gothic Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: "Helvetica Neue", Helvetica, Arial, sans-serif;
   width: 99% !important;
   resize: vertical;
   margin-bottom: 1em; }
@@ -7443,7 +7442,7 @@ div.contact.details table.subject_header h1 {
     padding-top: 0.1em;
     padding-right: 0.5em; }
   #time-logger-menu .icon-clock:before {
-    content: "";
+    content: "\f017";
     display: inline-block;
     font: normal normal normal 14px/1 FontAwesome;
     font-size: 1.2em;
@@ -7455,13 +7454,13 @@ div.contact.details table.subject_header h1 {
   #time-logger-menu .icon-pause-action {
     margin-left: 1em; }
   #time-logger-menu .icon-start-action:before {
-    content: ""; }
+    content: "\f04b"; }
   #time-logger-menu .icon-pause-action:before {
-    content: ""; }
+    content: "\f04c"; }
   #time-logger-menu .icon-stop-action:before {
-    content: ""; }
+    content: "\f04d"; }
   #time-logger-menu .icon-list-action:before {
-    content: ""; }
+    content: "\f03a"; }
 
 #comments h4 {
   border: 0;

@@ -35,7 +35,7 @@ fi
 [ "$nooverride" = "true" ] && override=""
 
 for file in _overrides.scss _variables_overrides.scss _variables_usage_overrides.scss ; do
-    echo "// DO NOT MODIFY THIS FILE, ALL YOUR MODIFICATIONS WILL BE LOST" > sass/$file
+    echo -e "@charset \"UTF-8\";\n// DO NOT MODIFY THIS FILE, ALL YOUR MODIFICATIONS WILL BE LOST" > sass/$file
 
     # Applying overrides
     if [ -n "$override" -a -f "$override/$file" ] ; then
