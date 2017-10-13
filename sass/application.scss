@@ -148,11 +148,15 @@ select {
   &:focus, &:active {
     @extend .button;
     box-shadow: 0px 3px 5px rgba(black, 0.125) inset;
+
+    + a {
+      font-size: 1em;
+      @extend .button;
+    }
   }
 
   + a {
     font-size: 1em;
-
     @extend .button;
   }
 }
