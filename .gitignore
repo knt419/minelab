@@ -6,3 +6,4 @@
 .*swo
 overrides/*.scss
 Gemfile.lock
+/vendor/

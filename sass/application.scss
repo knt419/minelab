@@ -127,7 +127,7 @@ select {
   }
 }
 
-#{$all-button-inputs}, #{$all-button-inputs-hover}, .button, .button:hover {
+#{$all-button-inputs}, .button {
   border: 1px solid $buttons-static-border;
   background: $buttons-static-bg;
   color: $buttons-static-fg;
@@ -139,23 +139,21 @@ select {
   text-align: center;
   font-size: 1em;
 
+  &:hover {
+    @extend .button;
+    background: $buttons-hover-bg;
+    color: $buttons-hover-fg;
+  }
+
+  &:focus, &:active {
+    @extend .button;
+    box-shadow: 0px 3px 5px rgba(black, 0.125) inset;
+  }
+
   + a {
     font-size: 1em;
 
     @extend .button;
-  }
-}
-
-#{$all-button-inputs-hover}, .button:hover {
-  background: $buttons-hover-bg;
-  color: $buttons-hover-fg;
-}
-
-#{$all-button-inputs-focus}, #{$all-button-inputs-active}, .button:focus, .button:active {
-  box-shadow: 0px 3px 5px rgba(black, 0.125) inset;
-
-  + a:active, a:focus {
-    @extend .button:active;
   }
 }
 
@@ -3167,9 +3165,6 @@ td.username img.gravatar {
 
   margin-top: 2em;
 
-  &:active, &:focus {
-    @extend .button:active;
-  }
 }
 
 .hascontextmenu {
@@ -3966,9 +3961,6 @@ div.contact.details table.subject_header h1 {
 
     margin-top: 2em;
 
-    &:active, &:focus {
-      @extend .button:active;
-    }
   }
 }
 
@@ -3978,9 +3970,6 @@ div.contact.details table.subject_header h1 {
 
     margin-top: 2em;
 
-    &:active, &:focus {
-      @extend .button:active;
-    }
   }
 }
 
