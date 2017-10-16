@@ -96,7 +96,7 @@ a {
   }
 }
 
-#{$all-text-inputs}, #{$all-text-inputs-hover}, textarea, textarea:hover, select, select:hover {
+#{$all-text-inputs}, textarea, select {
   padding: 0.5em;
   border-radius: 4px;
   border: 1px solid $medium-grey;
@@ -109,14 +109,14 @@ a {
   text-align: left;
   font-size: 1em;
 
+  &:focus {
+    border-color: $light-blue;
+    box-shadow: 0px 1px 1px rgba(black, 0.075) inset, 0px 0px 8px rgba($light-blue, 0.6);
+  }
+
   &:disabled {
     background: $light-grey;
   }
-}
-
-#{$all-text-inputs-focus}, textarea:focus {
-  border-color: $light-blue;
-  box-shadow: 0px 1px 1px rgba(black, 0.075) inset, 0px 0px 8px rgba($light-blue, 0.6);
 }
 
 select {
@@ -140,19 +140,16 @@ select {
   font-size: 1em;
 
   &:hover {
-    @extend .button;
     background: $buttons-hover-bg;
     color: $buttons-hover-fg;
   }
 
   &:focus, &:active {
-    @extend .button;
     box-shadow: 0px 3px 5px rgba(black, 0.125) inset;
   }
 
   + a {
     font-size: 1em;
-
     @extend .button;
   }
 }
