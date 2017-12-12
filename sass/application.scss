@@ -142,6 +142,11 @@ select {
   &:hover {
     background: $buttons-hover-bg;
     color: $buttons-hover-fg;
+
+    + a {
+      font-size: 1em;
+      @extend .button;
+    }
   }
 
   &:focus, &:active {
